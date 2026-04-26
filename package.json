@@ -1,0 +1,16 @@
+{
+  "name": "prompt-extension",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "icons": "node scripts/generate-icons.js",
+    "dev": "npm run icons && vite",
+    "build": "npm run icons && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.28",
+    "sharp": "^0.33.5",
+    "vite": "^8.0.10"
+  }
+}
